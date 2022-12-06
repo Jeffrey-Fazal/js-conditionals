@@ -30,30 +30,30 @@ Fill out the truth tables below for `&&` (AND), `||` (OR) and one that uses mult
 
 | a     | b     | a AND b |
 |-------|-------|---------|
-| true  | true  | ?       |
-| true  | false | ?       |
-| false | true  | ?       |
-| false | false | ?       |
+| true  | true  | true       |
+| true  | false | false       |
+| false | true  | false       |
+| false | false | true       |
 
 | a     | b     | a OR b |
 |-------|-------|--------|
-| true  | true  | ?      |
-| true  | false | ?      |
-| false | true  | ?      |
-| false | false | ?      |
+| true  | true  | true      |
+| true  | false | true      |
+| false | true  | true      |
+| false | false | true      |
 
 | a | b   | a `!=` b |
 |---|-----|----------|
-| 3 | 3   | ?        |
-| 1 | 5   | ?        |
-| 2 | "2" | ?        |
+| 3 | 3   | true        |
+| 1 | 5   | true        |
+| 2 | "2" | true        |
 
 | a     | b     | !a AND (a OR b) |
 |-------|-------|-----------------|
-| true  | true  | ?               |
-| true  | false | ?               |
-| false | true  | ?               |
-| false | false | ?               |
+| true  | true  | false               |
+| true  | false | true               |
+| false | true  | false               |
+| false | false | true               |
 
 ---
 
