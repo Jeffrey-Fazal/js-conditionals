@@ -26,7 +26,7 @@ foodResponse = prompt("What food would you like to eat?")
 console.log(foodResponse) 
 // check if reponse is pizza (if pizza console.log('yay pizza!!'))
 // if it isnt pizza check if its pasta (console.log('ohh I love pasta!!'))
-// nneither 'brussel sprouts for you'
+// neither 'brussel sprouts for you'
 
 if (foodResponse === 'pizza') {
     console.log('yay pizza!!')
@@ -38,7 +38,7 @@ if (foodResponse === 'pizza') {
 
 console.log(`Reponse based on what the user has said food resposne:  (${foodResponse})`)
 
-// bouncer 1 
+// Bouncer 1 
 console.log('bouncer 1 program')
 const age = 33
 
@@ -52,7 +52,7 @@ if (age>21){
     console.log('Are you sure you want to be here?')
 }
 
-// bouncer 2 
+// Bouncer 2 
 console.log('bouncer 2 program')
 const id = false 
 if(id === true){
@@ -67,4 +67,40 @@ if (age>21){
 }
 } else  {
     console.log('No ID, no entry')
+}
+
+// Valentine's day plans
+
+relationshipStatus = false
+trueLove = false 
+
+console.log("Are you in a realtionship?")
+
+if (relationshipStatus === true) {
+    console.log('Is it serious?')
+} else if (trueLove === true){
+    console.log('Romantic dinner for two')
+} else if (trueLove === false) {
+    console.log('Head to the closest bar')
+}
+
+else {
+    console.log("Head to the closest bar")
+}
+
+// Sending a letter to Santa
+
+goodChild = true
+stampCollection = true
+
+if ( goodChild === true) {
+    console.log("Write your wishlist and letter to Santa. \n Address your envelope with \" I Candy Cane Lane. North Pole\" Fold and place your letter in your envelope. \n Do you have a stamp?"  )
+} else if ( stampCollection === false){
+    console.log("Get a stamp from a teacher. Place it on the envelope. \n You\' done! Let's mail your letter to Santa")
+} else if (stampCollection === true) {
+console.log("Place it on the envelope. \n You\' done! Let's mail your letter to Santa")
+}
+
+else {
+    console.log("Do a good deed!")
 }
